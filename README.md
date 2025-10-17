@@ -72,8 +72,6 @@ Predict wine type and quality from physicochemical properties, with clear EDA an
 * Alcohol tends to be higher in higher‑quality labels (validate via ANOVA).
 * Correlation heatmap highlights relationships to monitor for collinearity/leakage.
 
-> ⚠️ Note: Fill in concrete numbers/plots from your notebook (means, medians, p‑values, etc.).
-
 ---
 
 ## 5) Modeling Snapshot
@@ -91,29 +89,10 @@ Predict wine type and quality from physicochemical properties, with clear EDA an
 
   * Weighted‑F1 and Cohen’s kappa (quality model), Accuracy and ROC‑AUC (type model), plus confusion matrices.
 
-> ✍️ Replace this bullet with your best model + metrics once run (e.g., *RandomForest, weighted‑F1=0.74, κ=0.61*).
-
 ---
 
-## 6) Business Recommendations (template)
-
-1. **Pricing guidance:** Use predicted quality probabilities to flag lots mismatched to price bands.
-2. **Process focus:** If alcohol/volatile acidity strongly drive quality, prioritize ferment control and VA management.
-3. **Quality monitoring:** Track quarterly shifts in the top 3 influential features; alert when distributions drift.
-
----
-
-## 7) Deliverables
+## 6) Deliverables
 
 * 4–8 EDA figures (type mix, quality distribution, boxplots, heatmap, key histograms).
 * Confusion matrices and classification report(s).
 * Short slide deck for non‑technical stakeholders (6–12 slides, 12–15 min).
-
----
-
-## 8) Next Steps
-
-* Class‑imbalance handling (stratified split, class weights, or resampling).
-* Model calibration + permutation feature importance for interpretability.
-* Add domain features (grape/region/age) if available to refine pricing decisions.
-
