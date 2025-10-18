@@ -93,6 +93,6 @@ Predict wine type and quality from physicochemical properties, with clear EDA an
 
 ## 6) Deliverables
 
-* 4–8 EDA figures (type mix, quality distribution, boxplots, heatmap, key histograms).
+* 4 EDA figures (type mix, quality distribution, boxplots, heatmap, key histograms).
 * Confusion matrices and classification report(s).
-* Short slide deck for non‑technical stakeholders (6–12 slides, 12–15 min).
+* Short slide deck for non‑technical stakeholders.
